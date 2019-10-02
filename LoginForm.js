@@ -112,7 +112,7 @@ class LoginForm extends Component {
                     </div>
                     <div>
                         <label style={{ width: "30%", float: "left" }}>
-                            Username: 
+                            Email: 
                         </label>
                         <input
                                 type="text"
