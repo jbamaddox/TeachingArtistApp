@@ -21,31 +21,33 @@ class AssignmentDetails extends Component{
                 <div style={{ marginTop: "20px", marginLeft: "20px" }}>
                     
                     <div style={{ marginBottom: "40px" }}>
-                        <label><b><u>Employee Name</u>: </b></label>
+                        <label><b>Employee Name: </b></label>
                         <br />
                         <span>{this.props.mainItem.employeeName}</span>
                         <br />
                         <span>{this.props.mainItem.employeeAddress}</span>
                         <br />
                         <br />
-                        <label><b><u>School Name</u>: </b></label>
+                        <label><b>School Name: </b></label>
                         <br />
                         <span>{this.props.mainItem.schoolName}</span>
                         <br />
                         <span>{this.props.mainItem.schoolAddress}</span>
                         <br />
                         <br />
-                        <label><b><u>Teacher Name</u>: </b></label><span>{this.props.mainItem.classroomName}</span>
+                        <label><b>Teacher Name: </b></label>
+                        <br />
+                        <span>{this.props.mainItem.classroomName}</span>
                         <br />
                         <br />
-                        <label><b><u>Classroom Schedule</u>: </b></label>
+                        <label><b>Classroom Schedule: </b></label>
                         <br />
                         <label>Start Time: </label><span>{this.props.mainItem.classroomStart}</span>
                         <br />
                         <label>End Time: </label><span>{this.props.mainItem.classroomEnd}</span>
                         <br />
                         <br />
-                        <label><b><u>Route</u>: </b></label>
+                        <label><b>Route </b></label>
                         <br />
                         <label>Distance: </label><span>{this.props.mainItem.Distance}</span><span> Miles</span>
                         <br />
