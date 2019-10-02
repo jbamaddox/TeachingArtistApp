@@ -205,6 +205,7 @@ class App extends Component{
                 this.schools = [];
                 this.classrooms = [];
                 this.assignments = [];
+                this.listClassNoAsn = [];
                 
             }
 
