@@ -567,7 +567,8 @@ p {
 }
 
 .welcome{
-    margin: 20px; 
+    margin: 150px; 
+    float: right;
     text-align: left;
 
 }

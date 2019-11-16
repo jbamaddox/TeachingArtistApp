@@ -5,6 +5,7 @@ import LoginForm from "./LoginForm";
 import EmployeeDetails from "./EmployeeDetails";
 import SchoolDetails from "./SchoolDetails";
 import AssignmentDetails from "./AssignmentDetails";
+import Welcome from "./Welcome"
 
 
 class App extends Component{
@@ -61,7 +62,7 @@ class App extends Component{
     
                     //Update data from database
                     this.updateLocalFromDatabase()
-                    this.setState({ loggedIn: true })
+                    this.setState({ showing: "welcome", loggedIn: true })
     
                 } else {
                     console.log("user logged off")
@@ -76,7 +77,7 @@ class App extends Component{
 
     mainDetailsToReturn(){
         if(this.state.showing === "welcome"){
-            return (<div></div>)
+            return (<Welcome />)
         }else if(this.state.showing === "employees"){
             document.getElementsByClassName("showEmpButton")[0].setAttribute("id", "showSelected");
             document.getElementsByClassName("showSchButton")[0].setAttribute("id", "");
