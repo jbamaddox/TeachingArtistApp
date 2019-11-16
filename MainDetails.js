@@ -23,6 +23,9 @@ class MainDetails extends Component{
         this.discardClassroomChanges = this.discardClassroomChanges.bind(this)
     }
    
+    componentDidMount(){
+        console.log("Main Details loaded")
+    }
 
     myEventMain(e){
         //Send Even data up to App
