@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
 import EmployeeDetails from "./EmployeeDetails";
 import SchoolDetails from "./SchoolDetails";
 import AssignmentDetails from "./AssignmentDetails";
@@ -125,3 +125,4 @@ class MainDetails extends Component{
 }
 
 export default MainDetails;
+*/
